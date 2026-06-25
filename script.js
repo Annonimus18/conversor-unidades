@@ -43,3 +43,25 @@ function convertirPeso(valor, origen, destino){
 
     return valor;
 }
+
+function convertirDistancia(valor, origen, destino){
+
+    if(origen==="Metros" && destino==="Kilometros")
+        return valor / 1000;
+
+    if(origen==="Kilometros" && destino==="Metros")
+        return valor * 1000;
+
+    return valor;
+}
+
+function convertirPeso(valor, origen, destino){
+
+    if(origen==="Gramos" && destino==="Kilogramos")
+        return valor / 1000;
+
+    if(origen==="Kilogramos" && destino==="Gramos")
+        return valor * 1000;
+
+    return valor;
+}
