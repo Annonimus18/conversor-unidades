@@ -1,3 +1,5 @@
+console.log("Version Distancia");
+
 function convertirDistancia(valor, origen, destino){
 
     if(origen==="Metros" && destino==="Kilometros")
