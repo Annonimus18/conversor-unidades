@@ -1,5 +1,6 @@
 console.log("Version Develop");
 console.log("Version Distancia");
+// Corrección en la conversión de metros
 function convertirDistancia(valor, origen, destino){
 
     if(origen==="Metros" && destino==="Kilometros")
